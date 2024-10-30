@@ -1,8 +1,9 @@
 #C:\Users\Admin\AppData\Local\Microsoft\WindowsApps\python.exe
 
 def factorial(n):
+    """Factorial iterativo descendente"""
+    fact = 1
     actual = n
-    fact = n 
     while actual > 0:
         fact = fact * actual 
         actual = actual - 1
